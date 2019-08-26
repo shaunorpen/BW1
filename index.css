@@ -135,6 +135,9 @@
   .container main .mainContent .twoColumn {
     width: 80%;
   }
+  .container main .mainContent .joinnow a {
+    font-size: 2.08rem;
+  }
 }
 .container main .mediaReviews {
   display: flex;
