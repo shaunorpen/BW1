@@ -6,8 +6,8 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  font-size: 1.6rem;
-  background: lightgrey;
+  font-size: 1.8rem;
+  background: #383735;
 }
 .container header {
   display: flex;
@@ -16,10 +16,11 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
-  background: grey;
+  background: #383735;
 }
 .container header h2 {
   margin-bottom: 1rem;
+  color: #F8FAF8;
 }
 .container header nav {
   display: flex;
@@ -33,7 +34,7 @@
   border-left: 1px solid black;
   padding: 0 1rem;
   text-decoration: none;
-  color: black;
+  color: #F8FAF8;
 }
 .container header nav a:first-of-type {
   border-left: none;
@@ -58,17 +59,18 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  background: #E5777C;
   background-image: url('./images/mushon-tamir-iHTBNp8L-SQ-unsplash.jpg');
   height: 40rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid red;
 }
 .container main .jumbotron h1 {
-  color: white;
+  color: #F8FAF8;
   margin: 10% 10rem 0rem 10rem;
   text-align: center;
+  text-shadow: -1px -1px 0 #383735, 1px -1px 0 #383735, -1px 1px 0 #383735, 1px 1px 0 #383735;
 }
 .container main .jumbotron input {
   margin-top: 10%;
@@ -78,6 +80,7 @@
   text-align: center;
   margin-top: 7rem;
   border-radius: 2rem;
+  color: #383735;
 }
 .container main .mainContent {
   display: flex;
@@ -88,13 +91,13 @@
 .container main .mainContent .twoColumn {
   padding: 2rem;
   margin: 2rem 0rem;
-  background: lightgrey;
+  background: #55BAC2;
   width: 40%;
   text-align: center;
-  border: 1px solid black;
 }
 .container main .mainContent .twoColumn h2 {
   margin-bottom: 2rem;
+  color: #383735;
 }
 .container main .mainContent .twoColumn .image {
   margin-bottom: 2rem;
@@ -105,6 +108,7 @@
 .container main .mainContent .twoColumn p {
   text-align: left;
   line-height: 2rem;
+  color: #383735;
 }
 .container main .mainContent .joinnow {
   display: flex;
@@ -115,11 +119,11 @@
   padding: 0rem 3rem 2rem 3rem;
 }
 .container main .mainContent .joinnow a {
-  background: grey;
+  background: #E8874A;
   padding: 2rem 7rem;
   text-decoration: none;
   font-size: 2.45rem;
-  color: white;
+  color: #F8FAF8;
   font-weight: bold;
   border-radius: 2rem;
   text-align: center;
@@ -135,8 +139,18 @@
   .container main .mainContent .twoColumn {
     width: 80%;
   }
+  .container main .mainContent .twoColumn:nth-of-type(1) {
+    order: 3;
+  }
+  .container main .mainContent .twoColumn:nth-of-type(2) {
+    order: 0;
+  }
+  .container main .mainContent .joinnow {
+    order: 1;
+    padding: 0rem 3rem;
+  }
   .container main .mainContent .joinnow a {
-    font-size: 2.08rem;
+    font-size: 2.34rem;
   }
 }
 .container main .mediaReviews {
@@ -145,7 +159,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 2rem;
-  background: #b3b3b3;
+  background: #55BAC2;
 }
 .container footer {
   display: flex;
@@ -153,17 +167,19 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background: grey;
+  background: #383735;
 }
 .container footer .about {
   width: 50%;
   padding: 2rem;
   line-height: 2rem;
+  color: #55BAC2;
 }
 .container footer .navigation,
 .container footer .contact {
   width: 25%;
   padding: 2rem;
+  color: #55BAC2;
 }
 .container footer .navigation nav,
 .container footer .contact nav {
@@ -174,6 +190,8 @@
 .container footer .navigation nav a,
 .container footer .contact nav a {
   padding: 0.3rem 0rem;
+  text-decoration: none;
+  color: #55BAC2;
 }
 .container footer .navigation p,
 .container footer .contact p {
@@ -202,7 +220,8 @@ h2 {
   font-family: 'Lora', serif;
 }
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
   font-family: 'Lora', serif;
+  color: #E8874A;
 }
