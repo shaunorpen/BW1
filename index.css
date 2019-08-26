@@ -94,6 +94,7 @@
   background: #55BAC2;
   width: 40%;
   text-align: center;
+  border-radius: 2rem;
 }
 .container main .mainContent .twoColumn h2 {
   margin-bottom: 2rem;
