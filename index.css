@@ -117,10 +117,11 @@
   justify-content: center;
   align-items: center;
   padding: 0rem 3rem 2rem 3rem;
+  margin: 1rem;
 }
 .container main .mainContent .joinnow a {
   background: #E8874A;
-  padding: 2rem 7rem;
+  padding: 2rem;
   text-decoration: none;
   font-size: 2.45rem;
   color: #F8FAF8;
