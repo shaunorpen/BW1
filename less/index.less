@@ -20,6 +20,10 @@
         padding: 2rem;
         background: grey;
 
+        h2 {
+            margin-bottom: 1rem;
+        }
+
         nav {
             .flex-row();
             justify-content: space-between;
@@ -54,7 +58,7 @@
 
             h1 {
                 color: white;
-                margin-top: 17rem;
+                margin-top: 15rem;
             }
 
             input {
@@ -70,15 +74,21 @@
 
         .mainContent {
             .flex-row();
-            justify-content: space-around;
-            padding: 1rem;
+            justify-content: space-evenly;
+            // padding: 2rem 1rem;
             flex-wrap: wrap;
 
             .twoColumn {
                 padding: 1rem;
+                margin: 2rem;
                 background: lightgrey;
                 width: 40%;
                 text-align: center;
+                border: 1px solid black;
+
+                h2 {
+                    margin-bottom: 2rem;
+                }
 
                 img {
                     width: 80%;
@@ -87,6 +97,7 @@
 
                 p {
                     text-align: left;
+                    line-height: 2rem;
                 }
             }
 
@@ -95,7 +106,7 @@
                 width: 100%;
                 justify-content: center;
                 align-items: center;
-                padding: 3rem;
+                padding: 0rem 3rem 2rem 3rem;
 
                 a {
                     background: grey;
@@ -125,6 +136,7 @@
         .about {
             width: 50%;
             padding: 2rem;
+            line-height: 2rem;
         }
         
         .navigation, .contact {

@@ -6,7 +6,7 @@
 .container {
   max-width: 80rem;
   margin: 0 auto;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   background: lightgrey;
 }
 .container header {
@@ -17,6 +17,9 @@
   align-items: flex-start;
   padding: 2rem;
   background: grey;
+}
+.container header h2 {
+  margin-bottom: 1rem;
 }
 .container header nav {
   display: flex;
@@ -49,7 +52,7 @@
 }
 .container main .jumbotron h1 {
   color: white;
-  margin-top: 17rem;
+  margin-top: 15rem;
 }
 .container main .jumbotron input {
   margin-top: 1rem;
@@ -63,15 +66,19 @@
 .container main .mainContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 1rem;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .container main .mainContent .twoColumn {
   padding: 1rem;
+  margin: 2rem;
   background: lightgrey;
   width: 40%;
   text-align: center;
+  border: 1px solid black;
+}
+.container main .mainContent .twoColumn h2 {
+  margin-bottom: 2rem;
 }
 .container main .mainContent .twoColumn img {
   width: 80%;
@@ -79,6 +86,7 @@
 }
 .container main .mainContent .twoColumn p {
   text-align: left;
+  line-height: 2rem;
 }
 .container main .mainContent .joinnow {
   display: flex;
@@ -87,7 +95,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 0rem 3rem 2rem 3rem;
 }
 .container main .mainContent .joinnow a {
   background: grey;
@@ -114,6 +122,7 @@
 .container footer .about {
   width: 50%;
   padding: 2rem;
+  line-height: 2rem;
 }
 .container footer .navigation,
 .container footer .contact {
@@ -136,7 +145,7 @@ h2 {
   font-family: 'Lora', serif;
 }
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: bold;
   font-family: 'Lora', serif;
 }
