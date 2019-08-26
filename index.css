@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
 }
 .container {
   max-width: 80rem;
@@ -127,12 +128,15 @@
 h1 {
   font-size: 5rem;
   font-weight: bold;
+  font-family: 'Lora', serif;
 }
 h2 {
   font-size: 3.5rem;
   font-weight: bold;
+  font-family: 'Lora', serif;
 }
 h3 {
   font-size: 1.7rem;
   font-weight: bold;
+  font-family: 'Lora', serif;
 }
