@@ -3,22 +3,24 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 800px;
+  max-width: 80rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   font-size: 1.7rem;
-  margin-top: 2rem;
+  background: lightgrey;
 }
 .container header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 0;
+  background: grey;
 }
 .container header nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 30%;
   font-weight: bold;
 }
 .container header nav a {
@@ -34,21 +36,46 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('./images/mushon-tamir-iHTBNp8L-SQ-unsplash.jpg');
+  height: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+}
+.container main .jumbotron h1 {
+  color: white;
+  margin-top: 17rem;
+}
+.container main .jumbotron input {
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  margin-top: 7rem;
 }
 .container main .mainContent {
   display: flex;
   justify-content: space-around;
+  padding: 1rem;
 }
 .container main .mainContent .twoColumn {
   padding: 1rem;
+  background: lightgrey;
+  width: 40%;
+}
+.container main .mainContent .twoColumn img {
+  width: 80%;
 }
 .container main .mediaReviews {
   display: flex;
   justify-content: space-around;
+  padding: 2rem;
 }
 .container footer {
   display: flex;
   justify-content: space-between;
+  background: grey;
 }
 .container footer .about {
   width: 50%;
