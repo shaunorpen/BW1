@@ -1,5 +1,6 @@
 @import "./variables.less";
 @import "./mixins.less";
+@import "./media.less";
 
 :root {
     font-size: 62.5%;
@@ -8,7 +9,7 @@
 }
 
 .container {
-    max-width: 80rem;
+    max-width: 120rem;
     margin: 0 auto;
     font-size: @font-size-small;
     background: lightgrey;
@@ -41,6 +42,20 @@
                 border-left: none;
             }
         }
+
+        @media @tablet {
+            .flex-column();
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 1rem;
+            }
+        }
     }
 
     main {
@@ -58,11 +73,12 @@
 
             h1 {
                 color: white;
-                margin-top: 15rem;
+                margin: 10% 10rem 0rem 10rem;
+                text-align: center;
             }
 
             input {
-                margin-top: 1rem;
+                margin-top: 10%;
                 font-size: @font-size-medium * 0.7;
                 width: 40rem;
                 height: 5rem;
@@ -70,16 +86,16 @@
                 margin-top: 7rem;
                 border-radius: 2rem;
             }
+
         }
 
         .mainContent {
             .flex-row();
             justify-content: space-evenly;
-            // padding: 2rem 1rem;
             flex-wrap: wrap;
 
             .twoColumn {
-                padding: 1rem;
+                padding: 2rem;
                 margin: 2rem;
                 background: lightgrey;
                 width: 40%;
@@ -90,22 +106,22 @@
                     margin-bottom: 2rem;
                 }
 
-                img {
-                    width: 80%;
+                .image {
                     margin-bottom: 2rem;
+
+                    img {
+                        width: 100%;
+                    }
                 }
 
                 p {
                     text-align: left;
                     line-height: 2rem;
-                    padding-left: 1.5rem;
-                    padding-bottom: 1.5rem;
                 }
             }
 
             .joinnow {
                 .flex-row();
-                width: 100%;
                 justify-content: center;
                 align-items: center;
                 padding: 0rem 3rem 2rem 3rem;
@@ -118,8 +134,22 @@
                     color: white;
                     font-weight: bold;
                     border-radius: 2rem;
+                    text-align: center;
+                    line-height: 3rem;
                 }
             }
+
+            @media @tablet {
+                .flex-column();
+                flex-direction: column;
+                align-items: center;
+
+                .twoColumn {
+                    width: 80%;
+                }
+
+            }
+
         }
 
         .mediaReviews {
@@ -131,7 +161,8 @@
     }
 
     footer {
-        display: flex;
+        .flex-row();
+        flex-wrap: nowrap;
         justify-content: space-between;
         background: grey;
 
@@ -146,8 +177,7 @@
             padding: 2rem;
             
             nav {
-                display: flex;
-                flex-direction: column;
+                .flex-column();
 
                 a {
                     padding: 0.3rem 0rem;
@@ -156,6 +186,14 @@
 
             p {
                 padding: 0.3rem 0rem;
+            }
+        }
+
+        @media @tablet {
+            .flex-column();
+
+            .about, .navigation, .contact {
+                width: 100%;
             }
         }
     }

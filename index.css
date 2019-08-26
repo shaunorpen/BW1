@@ -4,7 +4,7 @@
   font-family: 'Merriweather', serif;
 }
 .container {
-  max-width: 80rem;
+  max-width: 120rem;
   margin: 0 auto;
   font-size: 1.6rem;
   background: lightgrey;
@@ -38,6 +38,21 @@
 .container header nav a:first-of-type {
   border-left: none;
 }
+@media (max-width: 800px) {
+  .container header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container header h2 {
+    text-align: center;
+  }
+  .container header nav {
+    margin-top: 1rem;
+  }
+}
 .container main .jumbotron {
   display: flex;
   flex-wrap: wrap;
@@ -52,10 +67,11 @@
 }
 .container main .jumbotron h1 {
   color: white;
-  margin-top: 15rem;
+  margin: 10% 10rem 0rem 10rem;
+  text-align: center;
 }
 .container main .jumbotron input {
-  margin-top: 1rem;
+  margin-top: 10%;
   font-size: 2.45rem;
   width: 40rem;
   height: 5rem;
@@ -70,7 +86,7 @@
   flex-wrap: wrap;
 }
 .container main .mainContent .twoColumn {
-  padding: 1rem;
+  padding: 2rem;
   margin: 2rem;
   background: lightgrey;
   width: 40%;
@@ -80,21 +96,20 @@
 .container main .mainContent .twoColumn h2 {
   margin-bottom: 2rem;
 }
-.container main .mainContent .twoColumn img {
-  width: 80%;
+.container main .mainContent .twoColumn .image {
   margin-bottom: 2rem;
+}
+.container main .mainContent .twoColumn .image img {
+  width: 100%;
 }
 .container main .mainContent .twoColumn p {
   text-align: left;
   line-height: 2rem;
-  padding-left: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 .container main .mainContent .joinnow {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
   justify-content: center;
   align-items: center;
   padding: 0rem 3rem 2rem 3rem;
@@ -107,6 +122,19 @@
   color: white;
   font-weight: bold;
   border-radius: 2rem;
+  text-align: center;
+  line-height: 3rem;
+}
+@media (max-width: 800px) {
+  .container main .mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container main .mainContent .twoColumn {
+    width: 80%;
+  }
 }
 .container main .mediaReviews {
   display: flex;
@@ -118,6 +146,9 @@
 }
 .container footer {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
   background: grey;
 }
@@ -134,6 +165,7 @@
 .container footer .navigation nav,
 .container footer .contact nav {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .container footer .navigation nav a,
@@ -143,6 +175,18 @@
 .container footer .navigation p,
 .container footer .contact p {
   padding: 0.3rem 0rem;
+}
+@media (max-width: 800px) {
+  .container footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container footer .about,
+  .container footer .navigation,
+  .container footer .contact {
+    width: 100%;
+  }
 }
 h1 {
   font-size: 5rem;
