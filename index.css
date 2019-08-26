@@ -5,13 +5,13 @@
 .container {
   max-width: 80rem;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   font-size: 1.7rem;
   background: lightgrey;
 }
 .container header {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem 0;
@@ -19,6 +19,8 @@
 }
 .container header nav {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   font-weight: bold;
@@ -32,12 +34,9 @@
 .container header nav a:first-of-type {
   border-left: none;
 }
-.container main {
-  display: flex;
-  flex-direction: column;
-}
 .container main .jumbotron {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   background-image: url('./images/mushon-tamir-iHTBNp8L-SQ-unsplash.jpg');
@@ -60,6 +59,7 @@
 }
 .container main .mainContent {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   padding: 1rem;
   flex-wrap: wrap;
@@ -78,8 +78,10 @@
   text-align: left;
 }
 .container main .mainContent .joinnow {
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
   justify-content: center;
   align-items: center;
   padding: 3rem;
@@ -94,6 +96,8 @@
 }
 .container main .mediaReviews {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
   padding: 2rem;
   background: #b3b3b3;

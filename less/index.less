@@ -1,5 +1,5 @@
 @import "./variables.less";
-// @import "./mixins.less";
+@import "./mixins.less";
 
 :root {
     font-size: 62.5%;
@@ -9,20 +9,18 @@
 .container {
     max-width: 80rem;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
     font-size: @font-size-small;
     background: lightgrey;
 
     header {
-        display: flex;
+        .flex-row();
         justify-content: space-between;
         align-items: flex-start;
         padding: 2rem 0;
         background: grey;
 
         nav {
-            display: flex;
+            .flex-row();
             justify-content: space-between;
             align-items: flex-start;
             font-weight: bold;
@@ -41,12 +39,9 @@
     }
 
     main {
-        display: flex;
-        flex-direction: column;
 
         .jumbotron {
-            display: flex;
-            flex-direction: column;
+            .flex-column;
             align-items: center;
             background-image: url('./images/mushon-tamir-iHTBNp8L-SQ-unsplash.jpg');
             // Photo by Mushon Tamir on Unsplash
@@ -71,7 +66,7 @@
         }
 
         .mainContent {
-            display: flex;
+            .flex-row();
             justify-content: space-around;
             padding: 1rem;
             flex-wrap: wrap;
@@ -93,8 +88,8 @@
             }
 
             .joinnow {
+                .flex-row();
                 width: 100%;
-                display: flex;
                 justify-content: center;
                 align-items: center;
                 padding: 3rem;
@@ -111,7 +106,7 @@
         }
 
         .mediaReviews {
-            display: flex;
+            .flex-row();
             justify-content: space-around;
             padding: 2rem;
             background: lighten(grey, 20%);
