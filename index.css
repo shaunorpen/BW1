@@ -1,0 +1,77 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 30%;
+  font-weight: bold;
+}
+.container header nav a {
+  border-left: 1px solid black;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.container main {
+  display: flex;
+  flex-direction: column;
+}
+.container main .jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container main .mainContent {
+  display: flex;
+  justify-content: space-around;
+}
+.container main .mainContent .twoColumn {
+  padding: 1rem;
+}
+.container main .mediaReviews {
+  display: flex;
+  justify-content: space-around;
+}
+.container footer {
+  display: flex;
+  justify-content: space-between;
+}
+.container footer .about {
+  width: 50%;
+  padding: 1rem;
+}
+.container footer .navigation,
+.container footer .contact {
+  width: 25%;
+  padding: 1rem;
+}
+.container footer .navigation nav,
+.container footer .contact nav {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 2rem;
+}
