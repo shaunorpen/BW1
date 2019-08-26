@@ -112,12 +112,12 @@
 }
 .container footer .about {
   width: 50%;
-  padding: 1rem;
+  padding: 2rem;
 }
 .container footer .navigation,
 .container footer .contact {
   width: 25%;
-  padding: 1rem;
+  padding: 2rem;
 }
 .container footer .navigation nav,
 .container footer .contact nav {
