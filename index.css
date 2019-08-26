@@ -52,10 +52,12 @@
 }
 .container main .jumbotron input {
   margin-top: 1rem;
-  font-size: 3.5rem;
-  width: 50%;
+  font-size: 2.45rem;
+  width: 40rem;
+  height: 5rem;
   text-align: center;
   margin-top: 7rem;
+  border-radius: 2rem;
 }
 .container main .mainContent {
   display: flex;
@@ -93,6 +95,7 @@
   font-size: 3.5rem;
   color: white;
   font-weight: bold;
+  border-radius: 2rem;
 }
 .container main .mediaReviews {
   display: flex;
