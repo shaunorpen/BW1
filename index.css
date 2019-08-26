@@ -87,6 +87,8 @@
 .container main .mainContent .twoColumn p {
   text-align: left;
   line-height: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .container main .mainContent .joinnow {
   display: flex;
@@ -101,7 +103,7 @@
   background: grey;
   padding: 2rem 7rem;
   text-decoration: none;
-  font-size: 3.5rem;
+  font-size: 2.45rem;
   color: white;
   font-weight: bold;
   border-radius: 2rem;
@@ -133,6 +135,14 @@
 .container footer .contact nav {
   display: flex;
   flex-direction: column;
+}
+.container footer .navigation nav a,
+.container footer .contact nav a {
+  padding: 0.3rem 0rem;
+}
+.container footer .navigation p,
+.container footer .contact p {
+  padding: 0.3rem 0rem;
 }
 h1 {
   font-size: 5rem;
