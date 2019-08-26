@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 2rem 0;
+  padding: 2rem;
   background: grey;
 }
 .container header nav {
