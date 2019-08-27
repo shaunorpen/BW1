@@ -7,24 +7,18 @@ var modal = document.getElementById("signupModal");
 var btn = document.getElementsByClassName("openSignupModal");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close");
 
-// When the user clicks on the button, open the modal 
-btn[0].onclick = function() {
-  modal.style.display = "block";
-}
-
-btn[1].onclick = function() {
+for (let i = 0; i < btn.length; i++) {
+  btn[i].onclick = function () {
     modal.style.display = "block";
+  }
 }
 
-btn[2].onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+for (let i = 0; i < span.length; i++) {
+  span[i].onclick = function () {
+    modal.style.display = "none";
+  }
 }
 
 // When the user clicks anywhere outside of the modal, close it
