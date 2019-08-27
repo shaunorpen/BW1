@@ -67,7 +67,7 @@
 .searchResults .searchResult img {
   width: 100%;
 }
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .searchResults .searchResult {
     flex-basis: 35%;
   }
@@ -228,7 +228,7 @@
 .container header nav a:first-of-type {
   border-left: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .container header {
     display: flex;
     flex-wrap: wrap;
@@ -336,7 +336,7 @@
   text-align: center;
   line-height: 3rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .container main .mainContent {
     display: flex;
     flex-wrap: wrap;
@@ -408,7 +408,7 @@
 .container footer .contact p {
   padding: 0.3rem 0rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .container footer {
     display: flex;
     flex-wrap: wrap;
