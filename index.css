@@ -108,8 +108,48 @@
   display: none;
 }
 .profile {
-  background: #383735;
   padding: 2rem;
+}
+.tabs {
+  position: relative;
+  min-height: 200px;
+  /* This part sucks */
+  clear: both;
+  margin: 2.5rem 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #E5777C;
+  padding: 1rem;
+  margin-left: -0.1rem;
+  margin-right: 0.3rem;
+  position: relative;
+  left: 1px;
+  color: #F8FAF8;
+  border-radius: 2rem 2rem 0rem 0rem;
+  font-weight: bold;
+}
+.tab [type=radio] {
+  display: none;
+}
+.content {
+  position: absolute;
+  top: 2.8rem;
+  left: 0;
+  background: #F8FAF8;
+  right: 0;
+  bottom: 0;
+  padding: 2rem;
+}
+[type=radio]:checked ~ label {
+  background: #F8FAF8;
+  color: #383735;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
 }
 :root {
   font-size: 62.5%;
