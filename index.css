@@ -55,6 +55,13 @@
   margin: 2rem 1rem;
   padding: 2rem;
 }
+.searchResults .searchResult h3 {
+  font-size: 2.45rem;
+  margin: 1rem 0rem;
+}
+.searchResults .searchResult p {
+  line-height: 2.5rem;
+}
 .searchResults .searchResult img {
   width: 100%;
 }
