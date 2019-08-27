@@ -77,21 +77,40 @@
                 margin: 10% 10rem 0rem 10rem;
                 text-align: center;
                 text-shadow:
-                        -1px -1px 0 @dark,
-                        1px -1px 0 @dark,
-                        -1px 1px 0 @dark,
-                        1px 1px 0 @dark;
+                        -1px -1px 0 @mid-dark,
+                        1px -1px 0 @mid-dark,
+                        -1px 1px 0 @mid-dark,
+                        1px 1px 0 @mid-dark;
             }
 
             input {
                 margin-top: 10%;
-                font-size: @font-size-medium * 0.7;
-                width: 40rem;
+                font-size: @font-size-small;
+                width: 30rem;
                 height: 5rem;
-                text-align: center;
+                // text-align: center;
+                padding: 0rem 2rem;
                 margin-top: 7rem;
                 border-radius: 2rem;
                 color: @dark;
+                font-family: inherit;
+                border: 1px solid @mid-dark;
+            }
+
+            a {
+                background: @mid;
+                font-size: @font-size-small; 
+                border-radius: 2rem;
+                margin-left: 1rem;
+                font-weight: bold;
+                padding: 1.4rem 2rem;
+                color: @dark;
+                border: 1px solid @mid-dark;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: @light;
             }
 
         }
