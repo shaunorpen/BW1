@@ -147,10 +147,29 @@
   flex-basis: 20%;
   padding: 2rem;
   border-radius: 2rem;
-  border: 1px solid #383735;
+  background: #E5777C;
 }
 .profile .content .toolShedItem img {
   width: 100%;
+}
+.profile .content .toolShedItem h3 {
+  color: #F8FAF8;
+  margin-top: 1rem;
+  text-align: center;
+}
+.profile .content a {
+  background: #E8874A;
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  padding: 1.4rem 2rem;
+  color: #383735;
+  border: 1px solid #E5777C;
+  text-decoration: none;
+}
+.profile .content a:hover {
+  color: #F8FAF8;
 }
 .tabs {
   position: relative;

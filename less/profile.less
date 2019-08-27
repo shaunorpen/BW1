@@ -36,11 +36,33 @@
             flex-basis: 20%;
             padding: 2rem;
             border-radius: 2rem;
-            border: 1px solid @dark;
+            background: @mid-dark;
 
             img {
                 width: 100%;
             }
+
+            h3 {
+                color: @light;
+                margin-top: 1rem;
+                text-align: center;
+            }
+        }
+
+        a {
+            background: @mid;
+            font-size: @font-size-small; 
+            border-radius: 2rem;
+            margin-left: 1rem;
+            font-weight: bold;
+            padding: 1.4rem 2rem;
+            color: @dark;
+            border: 1px solid @mid-dark;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: @light;
         }
     }
 }
