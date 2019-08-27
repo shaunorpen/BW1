@@ -1,11 +1,10 @@
 console.log("Hello from index.js");
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("signupModal");
 
 // Get the button that opens the modal
-// var btn = document.getElementById("openModal");
-var btn = document.getElementsByClassName("openModal");
+var btn = document.getElementsByClassName("openSignupModal");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

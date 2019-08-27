@@ -20,8 +20,8 @@
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">FAQ</a>
-                <a href="#" class="openModal">Signup</a>
-                <a href="#">Login</a>
+                <a href="#" class="openSignupModal">Signup</a>
+                <a href="#loginModal" class="OpenLoginModal">Login</a>
             </nav>
         </header>
         <main>
@@ -44,7 +44,7 @@
                     <h2>Borrow</h2>
                     <p>Renovating, repairing, gardening or landscaping? You'll need a tool or two. Don't spend money on things you'll only use once.</p>
                 </div>
-                <div class="joinNow openModal">
+                <div class="joinNow openSignupModal">
                     <a href="#">Join Use My Tools now!</a>
                 </div>
             </section>
@@ -65,8 +65,8 @@
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">FAQ</a>
-                    <a href="#" class="openModal">Signup</a>
-                    <a href="#">Login</a>
+                    <a href="#" class="openSignupModal">Signup</a>
+                    <a href="#loginModal" class="OpenLoginModal">Login</a>
                 </nav>
             </section>
             <section class="contact">
@@ -74,13 +74,11 @@
                 <p>info@usemytools.com</p>
             </section>
         </footer>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
+        <div id="signupModal" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
+                <a href="#"><span class="close">&times;</span></a>
                 <h1>Signup</h1>
-                <form action="€" method="post">
+                <form action="#" method="post">
                     <input type="email" name="email" id="email" placeholder="username@example.com">
                     <input type="password" placeholder="password">
                     <div class="agreeToTandCs">
@@ -88,6 +86,21 @@
                         <span>I agree to Use My Tools T&C's</span>
                     </div>
                     <button type="submit">Join now</button>
+                </form>
+            </div>
+        </div>
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <a href="#"><span class="close">&times;</span></a>
+                <h1>Login</h1>
+                <form action="#" method="post">
+                    <input type="email" name="email" id="email" placeholder="username@example.com">
+                    <input type="password" placeholder="password">
+                    <div class="rememberMe">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </div>
+                    <button type="submit">Login now</button>
                 </form>
             </div>
         </div>
