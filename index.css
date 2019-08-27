@@ -111,7 +111,7 @@
   line-height: 2.5rem;
   color: #383735;
 }
-.container main .mainContent .joinnow {
+.container main .mainContent .joinNow {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -120,7 +120,7 @@
   padding: 0rem 3rem 2rem 3rem;
   margin: 1rem;
 }
-.container main .mainContent .joinnow a {
+.container main .mainContent .joinNow a {
   background: #E8874A;
   padding: 2rem;
   text-decoration: none;
@@ -147,11 +147,11 @@
   .container main .mainContent .twoColumn:nth-of-type(2) {
     order: 0;
   }
-  .container main .mainContent .joinnow {
+  .container main .mainContent .joinNow {
     order: 1;
     padding: 0rem 3rem;
   }
-  .container main .mainContent .joinnow a {
+  .container main .mainContent .joinNow a {
     font-size: 2.34rem;
   }
 }
@@ -243,31 +243,65 @@ h3 {
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
-  background-color: #000000;
+  background-color: #383735;
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(56, 55, 53, 0.5);
   /* Black w/ opacity */
 }
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #F8FAF8;
   margin: 15% auto;
   /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border: 1px solid #383735;
+  width: 40rem;
   /* Could be more or less, depending on screen size */
+  /* The Close Button */
 }
-/* The Close Button */
-.close {
-  color: #aaa;
+.modal-content .close {
+  color: #E5777C;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-.close:hover,
-.close:focus {
-  color: black;
+.modal-content .close:hover,
+.modal-content .close:focus {
+  color: #383735;
   text-decoration: none;
+  cursor: pointer;
+}
+.modal-content h1 {
+  text-align: center;
+}
+.modal-content form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 3rem;
+}
+.modal-content form input {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.modal-content form .agreeToTandCs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+  color: #383735;
+}
+.modal-content form button {
+  background: #E8874A;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2.34rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-family: 'Merriweather', serif;
+  color: #383735;
   cursor: pointer;
 }
