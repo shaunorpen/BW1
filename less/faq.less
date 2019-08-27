@@ -1,0 +1,38 @@
+.faqs {
+    background: @dark;
+    padding: 2rem;
+
+    .faq {
+        border: 1px solid @mid;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: 1rem 0rem;
+
+        h3 {
+            font-size: @font-size-medium * 0.7;
+            // margin-bottom: 1rem;
+        }
+
+        p {
+            margin-top: 1rem;
+            color: @mid-light;
+            line-height: 2.5rem;
+        }
+    }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    transition: 1s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    color: @light;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    display: none;
+    transition: 1s;
+  }

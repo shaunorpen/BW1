@@ -80,6 +80,38 @@
 .searchResults .searchResult:last-of-type {
   justify-self: flex-start;
 }
+.faqs {
+  background: #383735;
+  padding: 2rem;
+}
+.faqs .faq {
+  border: 1px solid #E8874A;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 1rem 0rem;
+}
+.faqs .faq h3 {
+  font-size: 2.45rem;
+}
+.faqs .faq p {
+  margin-top: 1rem;
+  color: #55BAC2;
+  line-height: 2.5rem;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  transition: 1s;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  color: #F8FAF8;
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  display: none;
+  transition: 1s;
+}
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
