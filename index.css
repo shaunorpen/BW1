@@ -193,6 +193,11 @@
 .profile .content .lendingHistory table td {
   padding: 0.5rem;
   border: 1px solid #E5777C;
+  width: 30%;
+}
+.profile .content .currentlyLent table td:first-of-type,
+.profile .content .lendingHistory table td:first-of-type {
+  width: 10%;
 }
 .profile .content .currentlyLent table tbody tr:nth-of-type(even),
 .profile .content .lendingHistory table tbody tr:nth-of-type(even) {
