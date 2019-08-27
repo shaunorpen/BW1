@@ -261,6 +261,10 @@
   padding: 2rem;
   background: #55BAC2;
 }
+.container main .mediaReviews p {
+  text-align: center;
+  line-height: 2.5rem;
+}
 .container footer {
   display: flex;
   flex-wrap: wrap;
