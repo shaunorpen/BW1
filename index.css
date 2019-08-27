@@ -171,6 +171,39 @@
 .profile .content a:hover {
   color: #F8FAF8;
 }
+.profile .content .currentlyLent,
+.profile .content .lendingHistory {
+  flex-basis: 100%;
+}
+.profile .content .currentlyLent h3,
+.profile .content .lendingHistory h3 {
+  font-size: 2.45rem;
+  margin-bottom: 2rem;
+}
+.profile .content .currentlyLent table,
+.profile .content .lendingHistory table {
+  width: 100%;
+}
+.profile .content .currentlyLent table thead,
+.profile .content .lendingHistory table thead {
+  font-weight: bold;
+  background: #E5777C;
+}
+.profile .content .currentlyLent table td,
+.profile .content .lendingHistory table td {
+  padding: 0.5rem;
+  border: 1px solid #E5777C;
+}
+.profile .content .currentlyLent table tbody tr:nth-of-type(even),
+.profile .content .lendingHistory table tbody tr:nth-of-type(even) {
+  background: #f9e1d2;
+}
+.profile .content .currentlyLent a,
+.profile .content .lendingHistory a {
+  display: block;
+  width: fit-content;
+  margin: 2rem 0rem;
+}
 .tabs {
   position: relative;
   min-height: 48rem;
