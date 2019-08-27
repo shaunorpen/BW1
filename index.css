@@ -114,8 +114,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 .profile .content .userDetails {
   display: flex;
@@ -130,9 +130,6 @@
   width: 20rem;
   border-radius: 50%;
 }
-.profile .content .userDetails label {
-  width: 25rem;
-}
 .profile .content .userStats {
   display: flex;
   flex-wrap: wrap;
@@ -145,6 +142,15 @@
 }
 .profile .content .userStats h2 {
   margin: 1.5rem 0rem;
+}
+.profile .content .toolShedItem {
+  flex-basis: 20%;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 1px solid #383735;
+}
+.profile .content .toolShedItem img {
+  width: 100%;
 }
 .tabs {
   position: relative;

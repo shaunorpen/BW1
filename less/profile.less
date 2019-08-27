@@ -3,8 +3,8 @@
 
     .content {
         .flex-row();
-        align-items: flex-start;
         justify-content: space-evenly;
+        align-items: flex-start;
 
         .userDetails {
             .flex-column();
@@ -16,10 +16,6 @@
             img {
                 width: 20rem;
                 border-radius: 50%;
-            }
-
-            label {
-                width: 25rem;
             }
         }
 
@@ -33,6 +29,17 @@
 
             h2 {
                 margin: 1.5rem 0rem;
+            }
+        }
+
+        .toolShedItem {
+            flex-basis: 20%;
+            padding: 2rem;
+            border-radius: 2rem;
+            border: 1px solid @dark;
+
+            img {
+                width: 100%;
             }
         }
     }
