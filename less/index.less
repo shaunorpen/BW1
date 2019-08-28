@@ -150,7 +150,7 @@
                 
                 p {
                     text-align: left;
-                    line-height: 2.5rem;
+                    line-height: @line-height;
                     color: @dark;
                 }
             }
@@ -166,12 +166,12 @@
                     background: @mid;
                     padding: 2rem;
                     text-decoration: none;
-                    font-size: @font-size-medium * 0.7;
+                    font-size: @font-size-medium-small;
                     color: @light;
                     font-weight: bold;
                     border-radius: 2rem;
                     text-align: center;
-                    line-height: 3rem;
+                    line-height: @line-height;
                 }
             }
 
@@ -213,7 +213,7 @@
 
             p {
                 text-align: center;
-                line-height: 2.5rem;
+                line-height: @line-height;
             }
         }
     }
@@ -227,7 +227,7 @@
         .about {
             flex-basis: 50%;
             padding: 2rem;
-            line-height: 2.5rem;
+            line-height: @line-height;
             color: @mid-light;
         }
         
@@ -274,6 +274,13 @@ h2 {
 }
 
 h3 {
+    font-size: @font-size-medium-small;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: @mid;
+}
+
+h4 {
     font-size: @font-size-small;
     font-weight: bold;
     font-family: 'Lora', serif;

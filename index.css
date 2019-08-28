@@ -56,7 +56,7 @@
   padding: 2rem;
 }
 .searchResults .searchResult h3 {
-  font-size: 2.45rem;
+  font-size: 2.5rem;
   margin: 1rem 0rem;
   color: #F8FAF8;
 }
@@ -91,7 +91,7 @@
   margin: 1rem 0rem;
 }
 .faqs .faq h3 {
-  font-size: 2.45rem;
+  font-size: 2.5rem;
 }
 .faqs .faq p {
   margin-top: 1rem;
@@ -395,12 +395,12 @@
   background: #E8874A;
   padding: 2rem;
   text-decoration: none;
-  font-size: 2.45rem;
+  font-size: 2.5rem;
   color: #F8FAF8;
   font-weight: bold;
   border-radius: 2rem;
   text-align: center;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 @media (max-width: 830px) {
   .container main .mainContent {
@@ -497,6 +497,12 @@ h2 {
   font-family: 'Lora', serif;
 }
 h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  color: #E8874A;
+}
+h4 {
   font-size: 1.8rem;
   font-weight: bold;
   font-family: 'Lora', serif;
