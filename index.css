@@ -110,7 +110,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 .profile .content .userDetails {
   display: flex;
@@ -124,6 +124,7 @@
   width: 30%;
   min-width: 23rem;
   height: 32rem;
+  align-self: center;
 }
 .profile .content .userDetails img {
   width: 20rem;
@@ -136,6 +137,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-self: center;
   justify-content: center;
   align-items: center;
   border: 1px solid #383735;

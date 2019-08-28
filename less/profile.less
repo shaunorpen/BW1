@@ -4,7 +4,7 @@
     .content {
         .flex-row();
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
 
         .userDetails {
             .flex-column();
@@ -16,6 +16,7 @@
             width: 30%;
             min-width: 23rem;
             height: 32rem;
+            align-self: center;
             
             img {
                 width: 20rem;
@@ -29,6 +30,7 @@
         
         .userStats {
             .flex-column();
+            align-self: center;
             justify-content: center;
             align-items: center;
             border: 1px solid @dark;
