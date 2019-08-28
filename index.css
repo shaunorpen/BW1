@@ -30,7 +30,7 @@
 .search a:hover {
   color: #F8FAF8;
 }
-@media (max-width: 600px) {
+@media (max-width: 641px) {
   .search form {
     display: flex;
     flex-wrap: wrap;
@@ -67,12 +67,12 @@
 .searchResults .searchResult img {
   width: 100%;
 }
-@media (max-width: 830px) {
+@media (max-width: 961px) {
   .searchResults .searchResult {
     flex-basis: 35%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 641px) {
   .searchResults .searchResult {
     flex-basis: 100%;
   }
@@ -294,7 +294,7 @@
 .container header nav a:first-of-type {
   border-left: none;
 }
-@media (max-width: 830px) {
+@media (max-width: 961px) {
   .container header {
     display: flex;
     flex-wrap: wrap;
@@ -402,7 +402,7 @@
   text-align: center;
   line-height: 2.5rem;
 }
-@media (max-width: 830px) {
+@media (max-width: 961px) {
   .container main .mainContent {
     display: flex;
     flex-wrap: wrap;
@@ -474,7 +474,7 @@
 .container footer .contact p {
   padding: 0.3rem 0rem;
 }
-@media (max-width: 830px) {
+@media (max-width: 961px) {
   .container footer {
     display: flex;
     flex-wrap: wrap;
