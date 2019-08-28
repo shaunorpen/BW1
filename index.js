@@ -36,8 +36,10 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
+      panel.style.marginTop = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.marginTop = 1 + "rem";
     } 
   });
 }
