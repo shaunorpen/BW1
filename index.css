@@ -270,6 +270,9 @@
   padding: 2rem;
   background: #383735;
 }
+.container header a {
+  text-decoration: none;
+}
 .container header h2 {
   margin-bottom: 1rem;
   color: #F8FAF8;
