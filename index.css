@@ -85,6 +85,7 @@
 .faqs .faq h3 {
   font-size: 1.8rem;
   font-family: 'Merriweather', serif;
+  cursor: pointer;
 }
 .faqs .faq p {
   margin-top: 1rem;
@@ -98,7 +99,9 @@
 }
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 .profile {
   padding: 2rem;
