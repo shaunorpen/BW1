@@ -354,6 +354,25 @@
 .container main .jumbotron a:hover {
   color: #F8FAF8;
 }
+@media (max-width: 641px) {
+  .container main .jumbotron h1 {
+    margin: 7% 10rem 0rem 10rem;
+  }
+  .container main .jumbotron form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .container main .jumbotron form input {
+    margin-top: 5%;
+  }
+  .container main .jumbotron form a {
+    margin-top: 5%;
+    margin-left: none;
+  }
+}
 .container main .mainContent {
   display: flex;
   flex-direction: row;

@@ -120,6 +120,27 @@
                 color: @light;
             }
 
+            @media @phone {
+                h1 {
+                    margin: 7% 10rem 0rem 10rem;
+                }
+                
+                form {
+                    .flex-column();
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    input {
+                        margin-top: 5%;
+                    }
+
+                    a {
+                        margin-top: 5%;
+                        margin-left: none;
+                    }
+                }
+            }
+
         }
 
         .mainContent {
