@@ -32,23 +32,6 @@
             }
         }
 
-        .toolShedItem {
-            flex-basis: 20%;
-            padding: 2rem;
-            border-radius: 2rem;
-            background: @mid-dark;
-
-            img {
-                width: 100%;
-            }
-
-            h3 {
-                color: @light;
-                margin-top: 1rem;
-                text-align: center;
-            }
-        }
-
         a {
             background: @mid;
             font-size: @font-size-small; 
@@ -65,35 +48,35 @@
             color: @light;
         }
 
+        table {
+            width: 100%;
+
+            thead {
+                font-weight: bold;
+                background: @mid-dark;
+            }
+
+            td {
+                padding: 0.5rem;
+                border: 1px solid @mid-dark;
+                width: 30%;
+
+                &:first-of-type {
+                    width: 10%;
+                }
+            }
+
+            tbody tr:nth-of-type(even) {
+                background: lighten(@mid,30%);
+            }
+        }
+
         .currentlyLent, .lendingHistory {
             flex-basis: 100%;
 
             h3 {
                 font-size: @font-size-medium * 0.7;
                 margin-bottom: 2rem;
-            }
-            
-            table {
-                width: 100%;
-
-                thead {
-                    font-weight: bold;
-                    background: @mid-dark;
-                }
-
-                td {
-                    padding: 0.5rem;
-                    border: 1px solid @mid-dark;
-                    width: 30%;
-
-                    &:first-of-type {
-                        width: 10%;
-                    }
-                }
-
-                tbody tr:nth-of-type(even) {
-                    background: lighten(@mid,30%);
-                }
             }
 
             a {

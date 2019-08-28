@@ -144,20 +144,6 @@
 .profile .content .userStats h2 {
   margin: 1.5rem 0rem;
 }
-.profile .content .toolShedItem {
-  flex-basis: 20%;
-  padding: 2rem;
-  border-radius: 2rem;
-  background: #E5777C;
-}
-.profile .content .toolShedItem img {
-  width: 100%;
-}
-.profile .content .toolShedItem h3 {
-  color: #F8FAF8;
-  margin-top: 1rem;
-  text-align: center;
-}
 .profile .content a {
   background: #E8874A;
   font-size: 1.8rem;
@@ -172,6 +158,24 @@
 .profile .content a:hover {
   color: #F8FAF8;
 }
+.profile .content table {
+  width: 100%;
+}
+.profile .content table thead {
+  font-weight: bold;
+  background: #E5777C;
+}
+.profile .content table td {
+  padding: 0.5rem;
+  border: 1px solid #E5777C;
+  width: 30%;
+}
+.profile .content table td:first-of-type {
+  width: 10%;
+}
+.profile .content table tbody tr:nth-of-type(even) {
+  background: #f9e1d2;
+}
 .profile .content .currentlyLent,
 .profile .content .lendingHistory {
   flex-basis: 100%;
@@ -180,29 +184,6 @@
 .profile .content .lendingHistory h3 {
   font-size: 2.45rem;
   margin-bottom: 2rem;
-}
-.profile .content .currentlyLent table,
-.profile .content .lendingHistory table {
-  width: 100%;
-}
-.profile .content .currentlyLent table thead,
-.profile .content .lendingHistory table thead {
-  font-weight: bold;
-  background: #E5777C;
-}
-.profile .content .currentlyLent table td,
-.profile .content .lendingHistory table td {
-  padding: 0.5rem;
-  border: 1px solid #E5777C;
-  width: 30%;
-}
-.profile .content .currentlyLent table td:first-of-type,
-.profile .content .lendingHistory table td:first-of-type {
-  width: 10%;
-}
-.profile .content .currentlyLent table tbody tr:nth-of-type(even),
-.profile .content .lendingHistory table tbody tr:nth-of-type(even) {
-  background: #f9e1d2;
 }
 .profile .content .currentlyLent a,
 .profile .content .lendingHistory a {
