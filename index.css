@@ -116,10 +116,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border: 1px solid #383735;
   border-radius: 2rem;
   padding: 2rem;
+  width: 30%;
+  min-width: 23rem;
+  height: 32rem;
 }
 .profile .content .userDetails img {
   width: 20rem;
@@ -132,11 +136,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border: 1px solid #383735;
   border-radius: 2rem;
   padding: 2rem;
+  width: 30%;
+  min-width: 23rem;
+  height: 32rem;
 }
 .profile .content .userStats h2 {
   margin: 1.5rem 0rem;
