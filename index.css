@@ -210,6 +210,11 @@
   width: fit-content;
   margin: 2rem 0rem;
 }
+@media (max-width: 641px) {
+  .profile .content .lendingHistory {
+    display: none;
+  }
+}
 .tabs {
   position: relative;
   min-height: 48rem;
