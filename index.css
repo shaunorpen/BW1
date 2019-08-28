@@ -44,41 +44,33 @@
 .searchResults {
   background: #383735;
   padding: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
-.searchResults .searchResult {
-  flex-basis: 25%;
-  background: #E5777C;
-  margin: 2rem 1rem;
+.searchResults .searchResultContainer {
+  background: #F8FAF8;
   padding: 2rem;
 }
-.searchResults .searchResult h3 {
-  font-size: 2.5rem;
-  margin: 1rem 0rem;
-  color: #F8FAF8;
-}
-.searchResults .searchResult p {
-  line-height: 2.5rem;
-  color: #383735;
-}
-.searchResults .searchResult img {
+.searchResults .searchResultContainer table {
   width: 100%;
 }
-@media (max-width: 961px) {
-  .searchResults .searchResult {
-    flex-basis: 35%;
-  }
+.searchResults .searchResultContainer table thead {
+  font-weight: bold;
+  background: #E5777C;
 }
-@media (max-width: 641px) {
-  .searchResults .searchResult {
-    flex-basis: 100%;
-  }
+.searchResults .searchResultContainer table td {
+  padding: 0.5rem;
+  border: 1px solid #f5cdce;
+  width: 22.5%;
+  vertical-align: middle;
+  text-align: center;
 }
-.searchResults .searchResult:last-of-type {
-  justify-self: flex-start;
+.searchResults .searchResultContainer table td:first-of-type {
+  width: 10%;
+}
+.searchResults .searchResultContainer table td img {
+  width: 100%;
+}
+.searchResults .searchResultContainer table tbody tr:nth-of-type(even) {
+  background: #f9e1d2;
 }
 .faqs {
   background: #383735;
@@ -176,7 +168,7 @@
 }
 .profile .content table td {
   padding: 0.5rem;
-  border: 1px solid #E5777C;
+  border: 1px solid #f5cdce;
   width: 30%;
 }
 .profile .content table td:first-of-type {
