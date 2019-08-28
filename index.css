@@ -611,6 +611,19 @@ h4 {
   color: #383735;
   cursor: pointer;
 }
+.modal-content form a {
+  background: #E8874A;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 2.34rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-family: 'Merriweather', serif;
+  color: #383735;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
 #loginModal:target {
   display: block;
 }
