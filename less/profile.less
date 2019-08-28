@@ -108,11 +108,13 @@
     min-height: 48rem; /* This part sucks */
     clear: both;
     margin: 2.5rem 0;
-  }
-  .tab {
+    }
+
+.tab {
     float: left;
-  }
-  .tab > label {
+}
+
+.tab > label {
     background: @mid-dark; 
     padding: 1rem; 
     margin-left: -0.1rem; 
@@ -122,11 +124,12 @@
     color: @light;
     border-radius: 2rem 2rem 0rem 0rem;
     font-weight: bold;
-  }
-  .tab [type=radio] {
+}
+.tab [type=radio] {
     display: none;   
-  }
-  .content {
+}
+
+.content {
     position: absolute;
     top: 2.8rem;
     left: 0;
@@ -134,12 +137,20 @@
     right: 0;
     bottom: 0;
     padding: 2rem;
-  }
-  [type=radio]:checked ~ label {
+}
+
+[type=radio]:checked ~ label {
     background: @light;
     color: @dark;
     z-index: 2;
-  }
-  [type=radio]:checked ~ label ~ .content {
+}
+
+[type=radio]:checked ~ label ~ .content {
     z-index: 1;
-  }
+}
+
+@media @phone {
+    .tab:nth-of-type(2) {
+        display: none;
+    }
+}

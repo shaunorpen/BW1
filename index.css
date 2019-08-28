@@ -240,6 +240,11 @@
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
 }
+@media (max-width: 641px) {
+  .tab:nth-of-type(2) {
+    display: none;
+  }
+}
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
