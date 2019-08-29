@@ -255,8 +255,6 @@
   }
 }
 :root {
-  font-size: 62.5%;
-  box-sizing: border-box;
   font-family: 'Merriweather', serif;
 }
 .container {
@@ -280,6 +278,9 @@
 .container header h2 {
   margin-bottom: 1rem;
   color: #F8FAF8;
+}
+.container header h4 {
+  text-align: center;
 }
 .container header nav {
   display: flex;
