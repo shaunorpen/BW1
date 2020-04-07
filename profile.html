@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Merriweather:400,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Use My Tools</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logoContainer">
+                <a href="./index.html">
+                    <h2>Use My Tools</h2>
+                </a>
+                <h4>Peer to peer tool hire for the AirBnB generation</h4>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="#">About</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="#signupModal" class="openSignupModal">Signup</a>
+                <a href="#loginModal" class="OpenLoginModal">Login</a>
+            </nav>
+        </header>
+        <main>
+            <section class="search">
+                <form action="">
+                    <input type="text" alt="Search for tools to borrow" placeholder="Search for a tool to borrow">
+                    <a href="./searchresults.html">Search</a>
+                </form>
+            </section>
+            <section class="profile">
+                <div class="tabs">
+                    <div class="tab">
+                        <input type="radio" id="tab-1" name="tab-group-1" checked>
+                        <label for="tab-1">Profile</label>
+                        <div class="content">
+                            <div class="userDetails">
+                                <img src="./images/trevorMacDonald.jpg" alt="Profile picture">
+                                <h3>Trevor MacDonald</h3>
+                                <a href="#">Edit Profile</a>
+                            </div>
+                            <div class="userStats">
+                                <h3>Member since</h3>
+                                <h2>1st Jan 2019</h2>
+                                <h3>Tools lent</h3>
+                                <h2>22</h2>
+                                <h3>Tools borrowed</h3>
+                                <h2>9</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" id="tab-2" name="tab-group-1">
+                        <label for="tab-2">My Toolshed</label>
+                        <div class="content">
+                            <div class="currentlyLent">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Item</td>
+                                            <td>Times Lent</td>
+                                            <td>Earnings</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Mower</td>
+                                            <td>5</td>
+                                            <td>£25.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Strimmer</td>
+                                            <td>3</td>
+                                            <td>£9.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Drill</td>
+                                            <td>1</td>
+                                            <td>£15.75</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Router</td>
+                                            <td>2</td>
+                                            <td>£7.30</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Table Saw</td>
+                                            <td>3</td>
+                                            <td>£75.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Hedge Cutter</td>
+                                            <td>5</td>
+                                            <td>£12.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>15m Extension Cord</td>
+                                            <td>1</td>
+                                            <td>£5.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Car Jack</td>
+                                            <td>2</td>
+                                            <td>£10.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" id="tab-3" name="tab-group-1">
+                        <label for="tab-3">Lent</label>
+                        <div class="content">
+                            <div class="currentlyLent">
+                                <h3>Currently lent out</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Item</td>
+                                            <td>Lent to</td>
+                                            <td>Due Back</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Mower</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Strimmer</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Drill</td>
+                                            <td>S. Stevens</td>
+                                            <td>1st Feb 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Router</td>
+                                            <td>T. Bendick</td>
+                                            <td>1st Mar 2020</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#">Mark as returned</a>
+                            </div>
+                            <div class="lendingHistory">
+                                <h3>History</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Item</td>
+                                            <td>Lent to</td>
+                                            <td>Returned</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Mower</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2019</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" id="tab-4" name="tab-group-1">
+                        <label for="tab-4">Borrowed</label>
+                        <div class="content">
+                            <div class="currentlyLent">
+                                <h3>Currently borrowing</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Item</td>
+                                            <td>Borrowed from</td>
+                                            <td>Due Back</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>3m Ladder</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Pressure Washer</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Loppers</td>
+                                            <td>S. Stevens</td>
+                                            <td>1st Feb 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Sander</td>
+                                            <td>T. Bendick</td>
+                                            <td>1st Mar 2020</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#">Mark as returned</a>
+                            </div>
+                            <div class="lendingHistory">
+                                <h3>History</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>Item</td>
+                                            <td>Borrowed from</td>
+                                            <td>Returned</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>3m Ladder</td>
+                                            <td>D. Singer</td>
+                                            <td>1st Jan 2019</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mediaReviews">
+                <div class="mediaReview">
+                    <p>"Loads of tools to rent at the lowest prices we could find anywhere." - BBC</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="about">
+                <h3>About</h3>
+                <p>Use My Tools is a tool sharing website and community powered by HTML, CSS and a tiny bit of
+                    JavaScript. It was developed as a build week project in the first month of the Full Stack Web
+                    Developer course by Shaun Orpen.</p>
+            </section>
+            <section class="navigation">
+                <h3>Navigation</h3>
+                <nav>
+                    <a href="./index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="./faq.html">FAQ</a>
+                    <a href="#signupModal" class="openSignupModal">Signup</a>
+                    <a href="#loginModal" class="OpenLoginModal">Login</a>
+                </nav>
+            </section>
+            <section class="contact">
+                <h3>Contact</h3>
+                <p>info@usemytools.com</p>
+            </section>
+        </footer>
+        <div id="signupModal" class="modal">
+            <div class="modal-content">
+                <a href="#"><span class="close">&times;</span></a>
+                <h1>Signup</h1>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="username@example.com">
+                    <input type="password" placeholder="password">
+                    <div class="agreeToTandCs">
+                        <input type="checkbox">
+                        <span>I agree to Use My Tools T&C's</span>
+                    </div>
+                    <button type="submit">Join now</button>
+                </form>
+            </div>
+        </div>
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <a href="#"><span class="close">&times;</span></a>
+                <h1>Login</h1>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="username@example.com">
+                    <input type="password" placeholder="password">
+                    <div class="rememberMe">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </div>
+                    <a href="./profile.html">Login now</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

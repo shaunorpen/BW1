@@ -1,0 +1,35 @@
+.faqs {
+    background: @dark;
+    padding: 2rem;
+
+    .faq {
+        border: 1px solid @mid;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: 1rem 0rem;
+
+        h3 {
+            font-size: @font-size-small;
+            font-family: 'Merriweather', serif;
+            cursor: pointer;
+        }
+
+        p {
+            color: @mid-light;
+            line-height: @line-height;
+        }
+
+    }
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    color: @light;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}

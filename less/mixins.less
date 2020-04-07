@@ -1,0 +1,13 @@
+.flex-settings(@flex-direction) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: @flex-direction;
+}
+
+.flex-row(@flex-direction: row) {
+    .flex-settings(@flex-direction: row);
+}
+
+.flex-column() {
+    .flex-settings(@flex-direction: column);
+}

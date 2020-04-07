@@ -1,0 +1,24 @@
+{
+  "name": "bw1",
+  "version": "1.0.0",
+  "description": "Lambda School: Build Week 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello World!\"",
+    "ls": "./node_modules/live-server/live-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunorpen/BW1.git"
+  },
+  "author": "Shaun Orpen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunorpen/BW1/issues"
+  },
+  "homepage": "https://github.com/shaunorpen/BW1#readme",
+  "dependencies": {
+    "less": "^3.10.3",
+    "live-server": "^1.2.1"
+  }
+}
